@@ -1,0 +1,102 @@
+* {
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: bisque;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.56rem;
+    background-color: rgb(196, 228, 255);
+    margin: 10px;
+    height: 370px;
+	width: 290px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.button button {
+    background-color: rgb(250, 188, 24);
+    font-size: 2rem;
+    border: 0;
+    border-radius: 0.4rem;
+    padding: 0.8rem;
+    margin: 1rem 0;
+    width: 17rem;
+}
+
+.button button:active {
+	transform: scale(0.97);
+}
+
+.button button:focus {
+	outline: none;
+}
+
+.button p {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.button a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .container {
+        font-size: 4rem;
+        height: 50rem;
+        width: 50rem;
+    }
+
+    .button button {
+        font-size: 3rem;
+        width: 24rem;
+    }
+
+    .button p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        font-size: 7rem;
+        height: 70rem;
+        width: 70rem;
+    }
+
+    .button button {
+        font-size: 4.5rem;
+        width: 36rem;
+    }
+
+    .button p {
+        font-size: 1.5rem;
+    }
+}
